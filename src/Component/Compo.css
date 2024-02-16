@@ -27,7 +27,6 @@ body{
 }
 
 
-
 .container3{
     height: 35vh;
     width: 16%;
@@ -37,7 +36,7 @@ body{
     /* padding-bottom: 20px; */
     /* margin-bottom: 15px; */
     box-shadow: 1px 0 6px rgba(0,0,0,.2);
-    margin-bottom: 15%;
+    margin-bottom: 5%;
     box-sizing: border-box;padding: 2.5px;
 }
 
@@ -323,6 +322,7 @@ justify-content: center;
    }
 .container3{
     width: 40%;
+    margin-bottom: 15%;
 }
 
 
