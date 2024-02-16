@@ -69,7 +69,7 @@ Travel in India is like nothing you’ve ever experienced, from the magnificence
                 <div id="Description2">
                     <NavLink to={`/homedynamic/${item.id}`}  style={{ textDecoration: 'none' }}>
 
-                    <p className='dec'>{item.Title}</p>
+                    <p className='dec p1'>{item.Title}</p>
                     </NavLink>
                 </div>
             </div>
@@ -93,7 +93,7 @@ Check out this India most iconic heritage, natural beauty, colourful, cultural a
 
   <br/>
 
-<div className='container1'>
+<div className='container12'>
 
      
 {received.filter((item) => item.Category === "home" && item.id >= 21 && item.id <= 26)
@@ -105,7 +105,7 @@ Check out this India most iconic heritage, natural beauty, colourful, cultural a
                     alt="not found"
                 />
                 <div id="Description2">
-                    <p>{item.Title}</p>
+                    <p className='p1'>{item.Title}</p>
                 </div>
             </div>
         );
@@ -135,7 +135,7 @@ Our collection of tour are themed by a style to help you get the most out of you
                 <div id="Description2">
                     <NavLink to={`/homedynamic/${item.id}`}  style={{ textDecoration: 'none' }}>
 
-                    <p className='dec'>{item.Title}</p>
+                    <p className='dec p1'>{item.Title}</p>
                     </NavLink>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Compo.css"
 
 const Footer = () => {
     return (
@@ -21,8 +22,8 @@ const Footer = () => {
 
             <div className='rjlog'> 
             <div>
-                <h2>The India Tourism</h2>
-                <p>email : The India Tourism</p>
+                <h2 className='fh'> The India Tourism</h2>
+                <p className='clr'>email : @The India Tourism</p>
                 </div> 
                         <div className='ctnav'>
                             <img src="https://www.theindiatourism.com/images/facebook.png" title="facebook" alt="facebook" />

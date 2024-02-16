@@ -42,7 +42,7 @@ const IndiaTrsm = () => {
                                     <div id="Description2">
                                         <NavLink to={`/trsmdynamic/${item.id}`} style={{ textDecoration: 'none' }}>
 
-                                            <p className='dec'>{item.Title}</p>
+                                            <p className='dec p1'>{item.Title}</p>
                                         </NavLink>
                                     </div>
                                 </div>
@@ -69,41 +69,3 @@ export default IndiaTrsm;
 
 
 
-
-
-
-// import React from 'react';
-
-// const items = [
-//     {title: "Apple", category: "Fruit", data: "Data related to apples"},
-//     {title: "Banana", category: "Fruit", data: "Data related to bananas"},
-//     {title: "Carrot", category: "Vegetable", data: "Data related to carrots"},
-//     // Add more items as needed
-// ];
-
-// class App extends React.Component {
-//     render() {
-//         const title = "Apple"; // Example title, you can change it as needed
-
-//         // Find the item with the matching title
-//         const matchingItem = items.find(item => item.title === title);
-
-//         if (matchingItem) {
-//             return (
-//                 <div>
-//                     <h2>Title: {matchingItem.title}</h2>
-//                     <p>Category: {matchingItem.category}</p>
-//                     <p>Data: {matchingItem.data}</p>
-//                 </div>
-//             );
-//         } else {
-//             return (
-//                 <div>
-//                     <p>No item found with the title {title}</p>
-//                 </div>
-//             );
-//         }
-//     }
-// }
-
-// export default App;

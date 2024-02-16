@@ -54,7 +54,8 @@ const Offersdynamic = () => {
                                     id="boximg"
                                 />
                                 <div id="Description2">
-                                    <p>{item.Title}</p>
+                                    <p className='p1'>{item.Title}</p>
+                                    <p className='p2'>{item.duration}</p>
                                     {/* <p>{item.Description.slice(0,110)+"..."}</p> */}
                                 </div>
                           

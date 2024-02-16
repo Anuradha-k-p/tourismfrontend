@@ -25,10 +25,15 @@ const Homedynamic = () => {
         { received.filter((item)=>item.id===id2).map((item,index)=>{
                 return(
                     <>
-                    <div key={index}>
+                    {/* <div key={index}>
 
                     <h1>{item.Title}</h1>
                     <p>{item.Description}</p>
+                    </div> */}
+                    <div key={index}>
+                        <h1>{item.Title}</h1>
+                        <p>{item.Description}</p>
+
                     </div>
 
                     </>
@@ -49,7 +54,8 @@ const Homedynamic = () => {
                                     id="boximg"
                                 />
                                 <div id="Description2">
-                                    <p>{item.Title}</p>
+                                    <p className='p1'>{item.Title}</p>
+                                    <p className='p2'>{item.duration}</p>
                                     {/* <p>{item.Description.slice(0,110)+"..."}</p> */}
                                 </div>
                           

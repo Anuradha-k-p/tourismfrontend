@@ -43,7 +43,7 @@ const Packages = () => {
                                         alt="not found"
                                     />
                                     <div id="Description2">
-                                        <p>{item.title}</p>
+                                        <p className='p1'>{item.title}</p>
                                     </div>
                                 </div>
                             );

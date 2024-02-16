@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Store } from '../Context/ContextData';
 import "./Compo.css"
 import FrontSlider from './Slider/FtSlider';
+import { MdKeyboardArrowLeft } from "react-icons/md";
 
 
 const PlaceVisit = () => {
@@ -37,11 +38,11 @@ const PlaceVisit = () => {
                     src={item.photo} 
                     alt="not found"
                 />
-                <p>{item.location1}</p>
-                <p>{item.location2}</p>
-                <p>{item.location3}</p>
-                <p>{item.location4}</p>
-                <p>{item.location5}</p>
+                <p> <MdKeyboardArrowLeft className='arrow'/>{item.location1}</p>
+                <p> <MdKeyboardArrowLeft className='arrow'/>{item.location2}</p>
+                <p><MdKeyboardArrowLeft className='arrow'/>{item.location3}</p>
+                <p> <MdKeyboardArrowLeft className='arrow'/>{item.location4}</p>
+                <p> <MdKeyboardArrowLeft className='arrow'/>{item.location5}</p>
                 
             </div>
         );

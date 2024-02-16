@@ -7,6 +7,7 @@ import { FaBusAlt } from "react-icons/fa";
 import "./Navbar.css"
 
 
+
 const TrsmDynamic = () => {
     const [received] = useContext(Store);
     console.log(received)
@@ -75,7 +76,7 @@ const TrsmDynamic = () => {
                                     id="boximg"
                                 />
                                 <div id="Description2">
-                                    <p>{item.Title}</p>
+                                    <p className='p1'>{item.Title}</p>
                                     {/* <p>{item.Description.slice(0,110)+"..."}</p> */}
                                 </div>
                           
@@ -83,9 +84,11 @@ const TrsmDynamic = () => {
                     );
                 })}
          </div>
+         <br/>
             
 
-            
+            <h2>Tour Packages</h2>
+            <br/>
 
          
          <div className='dynamiccon'>
@@ -102,8 +105,9 @@ const TrsmDynamic = () => {
                                     id="boximg"
                                 />
                                 <div id="Description2">
-                                    <p>{item.Title}</p>
-                                    {/* <p>{item.Description.slice(0,110)+"..."}</p> */}
+                                    <p className='p1'>{item.Title}</p>
+
+                                   <p className='p2'> {item.duration}</p>
                                 </div>
                           
                         </div>

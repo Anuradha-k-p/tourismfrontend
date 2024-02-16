@@ -49,7 +49,7 @@ const Offers = () => {
                 <div id="Description2">
                      <NavLink to={`/Offersdynamic/${item.id}`}  style={{ textDecoration: 'none' }}>
 
-                    <p className='dec'>{item.Title}</p>
+                    <p className='dec p1'>{item.Title}</p>
                     </NavLink>
                 </div>
             </div>
