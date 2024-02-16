@@ -23,8 +23,9 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 5%;
+   
 }
+
 
 
 .container3{
